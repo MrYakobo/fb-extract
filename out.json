@@ -1,453 +1,1021 @@
 {
-  "chat_name": "Linus Lerjebo under konjugatet kan skutta klockan 07.38 och är extremt omogen",
+  "chat_name": "Swish",
   "participants": [
-    "Tobias Carlsson",
-    "Linus Lerjebo"
+    "Johannes Lindskog"
   ],
   "messages": [
     {
-      "sender": "Linus Lerjebo",
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 568kr för locktång + heat protection till Amanda 😉",
+      "timestamp": "2017-12-29T16:10:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 99 kr för pläd (Rusta 23 dec)",
+      "timestamp": "2017-12-23T15:20:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Var det 45 som det skulle kost?",
+      "timestamp": "2017-12-18T15:23:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Nope",
+      "timestamp": "2017-12-18T15:22:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Hm ska kolla!",
+      "timestamp": "2017-12-18T15:21:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Har Amanda swishat för pizzan?",
+      "timestamp": "2017-12-18T14:49:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Ok",
+      "timestamp": "2017-12-14T15:21:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Ok, swisha mig 600👍  Johannes Lindskog",
+      "timestamp": "2017-12-14T15:21:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Nej du betalade för dem",
+      "timestamp": "2017-12-14T15:20:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Betalade du för bilnycklarna? 1200 kostade dom",
+      "timestamp": "2017-12-14T15:20:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "ja precis, sorry. Skrev i farten 😅😅",
+      "timestamp": "2017-12-14T13:31:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "/2?",
+      "timestamp": "2017-12-14T13:21:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 724 kr för tankning😮  Jakob Lindskog",
+      "timestamp": "2017-12-14T12:26:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 260 kr (IKEA 10 dec)👍  Jakob Lindskog",
+      "timestamp": "2017-12-10T17:59:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 759kr (Felsökning Bilia TEJ303 \n6 dec)👍  Jakob Lindskog",
+      "timestamp": "2017-12-06T15:33:00.000Z",
+      "media": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "sender": "Jakob Lindskog"
+        }
+      ]
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "(Y)",
+      "timestamp": "2017-11-27T10:20:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Jag swishade dig 10 för bensinpengar från mormor 28 nov👍  Johannes Lindskog",
+      "timestamp": "2017-11-27T10:19:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "377 kr tankning👍  Johannes Lindskog",
+      "timestamp": "2017-11-18T12:09:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "MAT",
+      "timestamp": "2017-10-21T14:29:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "yaaay!!",
+      "timestamp": "2017-10-21T14:29:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "I enlighet med detta är jag skuldfri! 😍",
+      "timestamp": "2017-10-21T14:16:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Ah juste, du behöver ej swisha 60 spänn",
+      "timestamp": "2017-10-21T14:11:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Kom på: eftersom vi delar på all bensin ändå så ska vi inte swisha varandra för idag",
+      "timestamp": "2017-10-21T14:08:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig för igår 362kr👍  Jakob Lindskog",
+      "timestamp": "2017-10-21T12:39:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag ska swisha dig för:\nTankning (när du hämtade Clara igår)\nAlingsås bensinpengar 60kr",
+      "timestamp": "2017-10-21T11:58:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha 119 kr till mig för presenterna + presentkortet + grattiskortet till Josef👍  Jakob Lindskog",
+      "timestamp": "2017-10-11T09:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "327 kr bensin 19 september👍  Jakob Lindskog",
+      "timestamp": "2017-09-19T16:45:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Hej @Fiskbiträdet \nDu ska swisha mig 125 kr för mat Willys 3 sept (igår)👍  Jakob Lindskog",
+      "timestamp": "2017-09-04T06:52:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Du ska swisha mig 20 kr för Axe Schampo 25 aug👍  Jakob Lindskog",
+      "timestamp": "2017-08-29T03:55:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Jag ska swisha dig 208,50 (Ica Maxi strumpor, chips, wax & pesto)👍  Johannes Lindskog",
+      "timestamp": "2017-08-22T14:56:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "39,50 kr skarvdon👍  Jakob Lindskog",
+      "timestamp": "2017-08-21T13:11:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Honey halstabletter 20kr\nTankning 385kr👍  Johannes Lindskog",
+      "timestamp": "2017-08-21T10:52:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Du till mig:\nKjell: Skarvdon 40kr\nClas: kabelkanal, 7st. 116kr👍  Johannes Lindskog😍  Jakob Lindskog",
+      "timestamp": "2017-08-16T10:54:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag till dig: Jordnötter från ullared 14.95",
+      "timestamp": "2017-08-16T10:16:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-08-15T07:59:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Betalar räkningen i slutet av månaden",
+      "timestamp": "2017-08-15T07:59:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-08-15T07:58:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Du ska swisha mig 42kr för internetkabeln inomhus grå👍  Jakob Lindskog",
+      "timestamp": "2017-08-15T07:58:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Vi ska swisha Julia 140kr var för utomhuskabel Ethernet 14 aug-17",
+      "timestamp": "2017-08-14T21:39:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Du ska swisha 316 kr för tankning 7 aug (innan Westcoast Camp)👍  Jakob Lindskog",
+      "timestamp": "2017-08-07T22:27:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Jag har swishat 31 kr för Willys (Pepsi+dip+14 kr som du fick tillbaka)😍  Jakob Lindskog",
+      "timestamp": "2017-08-03T23:40:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Du ska Swisha 19,95 kr för grenuttagen👍  Jakob Lindskog",
+      "timestamp": "2017-07-30T13:20:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Tack!",
+      "timestamp": "2017-07-26T08:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "👍👍👍",
+      "timestamp": "2017-07-26T08:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Skuldfri igen😍",
+      "timestamp": "2017-07-26T08:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Du ska swisha mig 150 kr för din biljett till Ådahlkoncerten den 26 aug 18:00-19:30 Aranästeatern👍  Jakob Lindskog",
+      "timestamp": "2017-07-26T08:02:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Klart 🐡",
+      "timestamp": "2017-07-24T11:22:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Du ska swisha mig: 358kr tankning👍  Jakob Lindskog",
+      "timestamp": "2017-07-24T11:15:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "För routern",
+      "timestamp": "2017-07-12T13:25:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "687.50 ska jag swisha dig👍  Jakob Lindskog",
+      "timestamp": "2017-07-12T13:25:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag ska swisha: Stolen 179👍  Jakob Lindskog",
+      "timestamp": "2017-07-12T11:11:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Tack /Kronofogden",
+      "timestamp": "2017-07-10T11:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "👏👏👏",
+      "timestamp": "2017-07-10T11:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Skuldfri nu😍",
+      "timestamp": "2017-07-10T10:33:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "12kr Amandas läsk👍  Jakob Lindskog",
+      "timestamp": "2017-07-10T09:48:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "50kr chopchop👍  Jakob Lindskog",
+      "timestamp": "2017-07-09T12:46:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-07-06T20:00:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Du ska swisha mig:\nFjälla (2st) 258kr\nBertil 29kr👍  Johannes Lindskog",
+      "timestamp": "2017-07-06T19:48:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha mig 392kr för bensin 1 juli👍  Jakob Lindskog",
+      "timestamp": "2017-07-01T12:54:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag ska swisha dig:\nHotell Savoy: 1195kr\nFelberäkning: 40kr👍  Jakob Lindskog",
+      "timestamp": "2017-07-01T08:34:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Bra!",
+      "timestamp": "2017-06-25T21:46:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag ska swisha dig det som du betalade med kort på Hotel Savoy. Förloppet är följande:\nDu swishade mig\nAmanda swishade mig\nDu betalade med kort\n=> Jag swishar dig hela summan",
+      "timestamp": "2017-06-25T21:44:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "1512 kr för reparation Mekonomen 21 juni -17👍  Jakob Lindskog",
+      "timestamp": "2017-06-22T06:55:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "362kr för tankning 💪👍  Jakob Lindskog",
+      "timestamp": "2017-06-21T15:54:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "👌👍",
+      "timestamp": "2017-06-19T17:52:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-06-19T17:51:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "då skriver jag här så det ej faller i glömska:\nSwisha 508,50kr extra👍  Jakob Lindskog",
+      "timestamp": "2017-06-19T17:33:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "okej",
+      "timestamp": "2017-06-19T17:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Aha!",
+      "timestamp": "2017-06-19T17:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Kunde inte swisha mer",
+      "timestamp": "2017-06-19T17:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Hälften",
+      "timestamp": "2017-06-19T17:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Ja",
+      "timestamp": "2017-06-19T17:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Bror!",
+      "timestamp": "2017-06-19T17:31:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Ok, lol",
+      "timestamp": "2017-06-19T17:07:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Ok",
+      "timestamp": "2017-06-19T17:06:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Kan inte se att du har swishat det",
+      "timestamp": "2017-06-19T17:05:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Var inte fordonsskatten fixad?",
+      "timestamp": "2017-06-19T17:04:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swishat o klart. \nDu får gärna swisha 80kr för familjepizzan + 1017kr för fordonsskatten som jag skrev. 👍",
+      "timestamp": "2017-06-19T17:03:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-06-19T13:00:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "35 kr tacotallrik",
+      "timestamp": "2017-06-18T16:29:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "jepp det är drygt. :/ Oki thx",
+      "timestamp": "2017-06-13T10:18:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Aja fixar det i em👍  Johannes Lindskog😆  Jakob Lindskog",
+      "timestamp": "2017-06-13T10:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Lol! Det är ju sjukt drygt",
+      "timestamp": "2017-06-13T10:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Yes. För hela året",
+      "timestamp": "2017-06-13T10:17:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Asså what! Fordonsskatt",
+      "timestamp": "2017-06-13T10:15:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Och 1017 kr för den årliga fordonsskatten TEJ303 \n(juli 2017 - juni 2018)👍  Johannes Lindskog😢  Jakob Lindskog",
+      "timestamp": "2017-06-13T09:43:00.000Z",
+      "media": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "sender": "Johannes Lindskog"
+        },
+        {
+          "emoji": "😢",
+          "sender": "Jakob Lindskog"
+        }
+      ]
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Hej! \n80 kr för familjepizzan i lördags (när vi kollade på Sällskapsresan) 🐟👍  Johannes Lindskog",
+      "timestamp": "2017-06-13T09:41:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Just",
+      "timestamp": "2017-06-07T10:22:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-06-07T10:21:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-06-01T22:16:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "gött! Även 812kr för trafikförsäkringen👍  Jakob Lindskog",
+      "timestamp": "2017-06-01T22:14:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Yes, fixar imån",
+      "timestamp": "2017-06-01T22:14:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Swisha 389kr för bensin TEJ303 (tankade 31 maj)👍  Jakob Lindskog",
+      "timestamp": "2017-06-01T22:12:00.000Z",
+      "media": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "sender": "Jakob Lindskog"
+        }
+      ]
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Kontrollbesiktning klar👍  Jakob Lindskog",
+      "timestamp": "2017-05-31T12:12:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "swishade 988kr nu (ABS)👍  Jakob Lindskog",
+      "timestamp": "2017-05-31T12:11:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "oki",
+      "timestamp": "2017-05-31T12:09:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Kontrollbesiktning (underkänd) 250kr",
+      "timestamp": "2017-05-31T12:09:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Aho je",
+      "timestamp": "2017-05-30T14:46:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "den typ",
+      "timestamp": "2017-05-30T14:45:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
       "content": "👍",
-      "timestamp": "2016-03-08T11:58:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2016-03-08T11:58:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2016-03-08T11:57:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2016-03-08T11:57:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:45:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
-      "content": "Hoppsannn",
-      "timestamp": "2016-03-08T11:57:00.000Z",
-      "media": null
+      "content": "ahaa",
+      "timestamp": "2017-05-30T14:45:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Josef Interpolation Karlsson",
-      "content": null,
-      "timestamp": "2016-03-08T11:56:00.000Z",
-      "media": "messages/photos/850135951778569.jpg"
+      "sender": "Johannes Lindskog",
+      "content": "Gillade första färgen 🐽",
+      "timestamp": "2017-05-30T14:45:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2016-01-31T19:35:00.000Z",
-      "media": "messages/stickers/213405818808643.png"
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Givet ♡",
-      "timestamp": "2016-01-08T07:23:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Visst e dom bra ☺",
-      "timestamp": "2016-01-08T07:19:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Haha",
-      "timestamp": "2016-01-08T07:19:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Haha a trip down memorylane",
-      "timestamp": "2016-01-08T05:12:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "Flashback till när Josef och Jakob spamma klass gruppen med videos i 1:an",
-      "timestamp": "2016-01-08T05:04:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": null,
-      "timestamp": "2016-01-08T05:04:00.000Z",
-      "media": "messages/photos/1236198026395758.jpg"
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Asså",
-      "timestamp": "2016-01-07T15:37:00.000Z",
-      "media": null
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-05-30T14:45:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
-      "content": "Precis",
-      "timestamp": "2016-01-07T15:37:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Så han hinner förbreda sig! :D",
-      "timestamp": "2016-01-07T15:37:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Yes! Linus e med i gruppen så han ser detta förr eller senare",
-      "timestamp": "2016-01-07T15:34:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "En riktig gruppkram tycker jag",
-      "timestamp": "2016-01-07T15:34:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "",
-      "timestamp": "2016-01-07T15:34:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Jaa",
-      "timestamp": "2016-01-07T15:34:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Vi får kramas på måndag!",
-      "timestamp": "2016-01-07T15:33:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Saknar er också mina pojkar ♡♡",
-      "timestamp": "2016-01-07T15:33:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "❤",
-      "timestamp": "2016-01-07T15:32:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Tobbe! Vi saknar dig",
-      "timestamp": "2016-01-07T15:32:00.000Z",
-      "media": null
+      "content": "Finns typ ingen som är readable",
+      "timestamp": "2017-05-30T14:41:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
       "content": "👍",
-      "timestamp": "2016-01-07T15:32:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": null,
-      "timestamp": "2015-12-07T13:19:00.000Z",
-      "media": "messages/photos/10208755707516602.jpg"
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "#blek",
-      "timestamp": "2015-12-07T12:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Här sitter Tobbe och spänner sig null",
-      "timestamp": "2015-12-07T12:45:00.000Z",
-      "media": "messages/photos/799295556862609.jpg"
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Där har ni googledokumentet",
-      "timestamp": "2015-11-25T12:00:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "https://docs.google.com/document/d/1bHK3Ok1yUscz6_w3IvNY85MgafpOg7joxAQDVZxZS14/edit?usp=sharing",
-      "timestamp": "2015-11-25T12:00:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": null,
-      "timestamp": "2015-11-11T12:07:00.000Z",
-      "media": "messages/photos/787600258032139.jpg"
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": null,
-      "timestamp": "2015-11-11T12:04:00.000Z",
-      "media": "messages/photos/787599468032218.jpg"
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": null,
-      "timestamp": "2015-11-11T12:01:00.000Z",
-      "media": "messages/photos/787598844698947.jpg"
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-10-13T08:55:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Heeej Liinus",
-      "timestamp": "2015-10-13T08:54:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Vi måste lufta oss nu",
-      "timestamp": "2015-10-02T11:49:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Hur mår du, Linus?",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Linus",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239383222810.png"
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": null,
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": "messages/stickers/369239263222822.png"
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "Hej Linus",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Hej Linus",
-      "timestamp": "2015-10-02T11:48:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Jakob Lindskog",
-      "content": "Linusssd",
-      "timestamp": "2015-10-02T11:47:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:40:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
       "content": "👍",
-      "timestamp": "2015-10-02T11:47:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-09-29T12:02:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Tobias Carlsson",
-      "content": "</3",
-      "timestamp": "2015-09-29T12:01:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "Jag kommer blockera er på Facebook om ni fortsätter",
-      "timestamp": "2015-09-29T12:01:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Du behöver det här för att mogna",
-      "timestamp": "2015-09-29T12:00:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Vad menar du Linus",
-      "timestamp": "2015-09-29T12:00:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:59:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:59:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "Allvarligt lägg av",
-      "timestamp": "2015-09-29T11:59:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:59:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:58:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:58:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:40:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
       "content": "👍",
-      "timestamp": "2015-09-29T11:58:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:40:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
-      "content": null,
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": "messages/photos/924798667582650.jpg"
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "👍",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Varför inte liksom",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
+      "content": "Yes, ingen brådis, tanken var mest så vi håller koll på swisharna",
+      "timestamp": "2017-05-30T14:40:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
-      "content": "Men linuss",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
-    },
-    {
-      "sender": "Linus Lerjebo",
       "content": "👍",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:39:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Linus Lerjebo",
-      "content": "Snälla sluta lägga till mig",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
+      "sender": "Johannes Lindskog",
+      "content": "Okaj. Jag måste föra över pengar till mitt ICA-konto för att kunna swisha",
+      "timestamp": "2017-05-30T14:39:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
       "sender": "Jakob Lindskog",
-      "content": "Varför gjorde du en till",
-      "timestamp": "2015-09-29T11:57:00.000Z",
-      "media": null
+      "content": "1976 kostade det idag på Mekonomen",
+      "timestamp": "2017-05-30T14:39:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Josef Interpolation Karlsson",
-      "content": "Skynda er att lägga till alla som Linus tar bort",
-      "timestamp": "2015-09-29T11:54:00.000Z",
-      "media": null
+      "sender": "Johannes Lindskog",
+      "content": "brao",
+      "timestamp": "2017-05-30T14:38:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Josef Interpolation Karlsson",
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-05-30T14:38:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Åhå! Så det är alltså vad jag ska swisha till dig👍  Jakob Lindskog",
+      "timestamp": "2017-05-30T14:38:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Bilens ABS-givare 988kr",
+      "timestamp": "2017-05-30T14:37:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Okej :)",
+      "timestamp": "2017-05-30T14:37:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Men iallafall här kommer första riktiga meddelandet",
+      "timestamp": "2017-05-30T14:37:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Så man delar med 2 lokalt i sin miniräknare",
+      "timestamp": "2017-05-30T14:36:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Man skriver vad den andra ska betala",
+      "timestamp": "2017-05-30T14:36:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jo, också om det är bilen",
+      "timestamp": "2017-05-30T14:36:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Ja men man kan inte göra 2-pers-gruppchatt annars👍  Johannes Lindskog",
+      "timestamp": "2017-05-30T14:36:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Jag är stolt över dig Fiskbiträdet",
+      "timestamp": "2017-05-30T14:36:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "hahah elakt att du bjöd in Lillis & sen kickade henne",
+      "timestamp": "2017-05-30T14:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-05-30T14:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "najs",
+      "timestamp": "2017-05-30T14:35:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Sådär typ",
+      "timestamp": "2017-05-30T14:34:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Sen så gör du tummen upp på det meddelandet när det är betalt",
+      "timestamp": "2017-05-30T14:34:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Godis 19kr",
+      "timestamp": "2017-05-30T14:34:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Jag tänker mig att man skriver ett meddelande här i följande format:",
+      "timestamp": "2017-05-30T14:34:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-05-30T14:33:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
       "content": "👍",
-      "timestamp": "2015-09-29T11:53:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:33:00.000Z",
+      "media": null,
+      "reactions": null
     },
     {
-      "sender": "Josef Interpolation Karlsson",
+      "sender": "Jakob Lindskog",
       "content": "👍",
-      "timestamp": "2015-09-29T11:53:00.000Z",
-      "media": null
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "👍",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Nej inte fish swish",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "🐟",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "👍",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "👍",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Nu kan vi snacka",
+      "timestamp": "2017-05-30T14:32:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "Så",
+      "timestamp": "2017-05-30T14:31:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "👍",
+      "timestamp": "2017-05-30T14:31:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Johannes Lindskog",
+      "content": "Wunderbart 🐗",
+      "timestamp": "2017-05-30T14:31:00.000Z",
+      "media": null,
+      "reactions": null
+    },
+    {
+      "sender": "Jakob Lindskog",
+      "content": "👍",
+      "timestamp": "2017-05-30T14:31:00.000Z",
+      "media": null,
+      "reactions": null
     }
   ]
 }

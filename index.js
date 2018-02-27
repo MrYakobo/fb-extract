@@ -19,7 +19,7 @@ function iterateAll(){
     })
 }
 
-iterateAll()
+// iterateAll()
 
-// let res = msg('messages/13.html', 'sv')
-// fs.writeFileSync('out.json', JSON.stringify(res, null, 2))
+let res = msg('messages/101.html', 'sv')
+fs.writeFileSync('out.json', JSON.stringify(res, null, 2))

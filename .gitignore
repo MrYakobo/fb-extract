@@ -6,3 +6,4 @@ index.htm
 node_modules/
 output/
 .vscode/
+out.json
