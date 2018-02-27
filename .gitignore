@@ -1,0 +1,8 @@
+html/
+messages/
+photos/
+videos/
+index.htm
+node_modules/
+output/
+.vscode/

@@ -1,0 +1,23 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "This repository takes a folder as input and outputs to another folder (facebook-extracted/) where all information is extracted into JSON-files/CSV/Yaml, with scripts for importing these into a relational database.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.20.1",
+    "parse5": "^4.0.0",
+    "then-fs": "^2.0.0",
+    "date-names": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
