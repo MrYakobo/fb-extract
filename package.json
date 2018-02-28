@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "date-names": "latest",
     "moment": "^2.20.1",
-    "parse5": "^4.0.0",
-    "then-fs": "^2.0.0",
-    "date-names": "latest"
+    "progress": "^2.0.0",
+    "then-fs": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
