@@ -2,15 +2,17 @@ const fs = require('fs')
 const path = require('path')
 
 const ProgressBar = require('progress')
-
 let msg = require('./lib/msg')
 
 try { fs.mkdirSync('output') }
 catch(e){ }
 
-function iterateAll({complete = true}){
+function iterateAll(overwrite = false){
     const alreadyDone = fs.readdirSync('output').map(t=>t.replace('json','html'))
-    const files = fs.readdirSync('messages').filter(t=> path.extname(t)==='.html' && (complete || alreadyDone.indexOf(t)===-1)).sort((a,b)=>parseInt(a.split('.')[0]) - parseInt(b.split('.')[0]))
+
+    const filter = t => path.extname(t)==='.html' && (!(overwrite^alreadyDone.indexOf(t) > -1)||overwrite)
+
+    const files = fs.readdirSync('messages').filter(filter).sort((a,b)=>parseInt(a.split('.')[0]) - parseInt(b.split('.')[0]))
 
     const bar = new ProgressBar(':bar :currentFile', {total: files.length})
 

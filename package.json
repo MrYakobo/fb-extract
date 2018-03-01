@@ -8,8 +8,11 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "date-names": "latest",
+    "cornet": "^0.1.5",
+    "date-names": "^0.1.12",
+    "htmlparser2": "^3.9.2",
     "moment": "^2.20.1",
+    "ora": "^2.0.0",
     "progress": "^2.0.0",
     "then-fs": "^2.0.0"
   },
