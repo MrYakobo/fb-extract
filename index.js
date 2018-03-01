@@ -2,31 +2,45 @@ const fs = require('fs')
 const path = require('path')
 
 const ProgressBar = require('progress')
-let msg = require('./lib/msg')
+let msg = require('./lib/streams')
 
 try { fs.mkdirSync('output') }
 catch(e){ }
 
-function iterateAll(overwrite = false){
+async function iterateAll(overwrite = false, skipHuge = true){
     const alreadyDone = fs.readdirSync('output').map(t=>t.replace('json','html'))
 
     const filter = t => path.extname(t)==='.html' && (!(overwrite^alreadyDone.indexOf(t) > -1)||overwrite)
 
-    const files = fs.readdirSync('messages').filter(filter).sort((a,b)=>parseInt(a.split('.')[0]) - parseInt(b.split('.')[0]))
+    const files = fs.readdirSync('messages').filter(t=>skipHuge && t != '386.html').filter(filter).sort((a,b)=>parseInt(a.split('.')[0]) - parseInt(b.split('.')[0]))
 
-    const bar = new ProgressBar(':bar :currentFile', {total: files.length})
+    const bar = new ProgressBar('[:bar] :percent :curr', {
+        complete: '=',
+        incomplete: ' ',
+        width: 80,
+        total: files.length
+    })
 
-    files.forEach(t=>{
-        console.log('curr file ' + t)
+    for (t of files){
         const f = path.join('messages', t)
         const out = path.join('output', t.replace('html','json'))
-        const m = JSON.stringify(msg(f, 'sv'), null, 2)
-        fs.writeFileSync(out, m)
-        bar.tick({currentFile: f})
-    })
+
+        bar.tick({curr: out})
+
+        const m = await msg(f, 'sv')
+        fs.writeFileSync(out, JSON.stringify(m, null, 2))
+    }
 }
 
-iterateAll(false)
+function createSQL(){
+    const files = fs.readdirSync('output')
+    fs.createReadStream()
+}
 
-// let res = msg('messages/100.html', 'sv')
-// fs.writeFileSync('out.json', JSON.stringify(res, null, 2))
+iterateAll(true).then(()=>{
+    // createSQL() 
+})
+
+// msg('messages/379.html', 'sv').then(m=>{
+//     fs.writeFileSync('output/379.json', JSON.stringify(m, null, 2))
+// })
