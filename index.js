@@ -35,5 +35,5 @@ async function iterateAll(overwrite = false, skipHuge = true){
 }
 
 iterateAll(true).then(()=>{
-    json2CSV('output', c.name, 'csv')
+    json2CSV(c.name, 'output', 'csv')
 })
