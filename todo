@@ -1,0 +1,8 @@
+Remove redundant and non-general-purpose variables. 
+Make some interactive stuffs with the terminal to make sure the settings are set right.
+Rename output to JSON or something.
+Move the whole project and `npm link` to working folder.
+Ask user about where to store the extracted information to avoid cluttering in the CWD.
+Add example queries to README
+
+Fix linking to photos/videos? How would one do that?
