@@ -16,6 +16,7 @@ async function iterateAll(overwrite = false, skipHuge = true){
 
     const files = fs.readdirSync('messages').filter(t=>skipHuge && t != '386.html').filter(filter).sort((a,b)=>parseInt(a.split('.')[0]) - parseInt(b.split('.')[0]))
 
+    console.log('Converting from HTML to JSON...')
     const bar = new ProgressBar('[:bar] :percent :curr', {
         complete: '=',
         incomplete: ' ',
@@ -34,6 +35,8 @@ async function iterateAll(overwrite = false, skipHuge = true){
     }
 }
 
-iterateAll(true).then(()=>{
-    json2CSV(c.name, 'output', 'csv')
-})
+if(!module.parent){
+    iterateAll(true).then(()=>{
+        json2CSV(c.name, 'output', 'csv')
+    })
+}
