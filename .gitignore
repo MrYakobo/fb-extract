@@ -8,3 +8,4 @@ output/
 .vscode/
 out.json
 values.sql
+csv

@@ -3,7 +3,7 @@ const path = require('path')
 
 const ProgressBar = require('progress')
 let msg = require('./lib/streams')
-const json2sql = require('./lib/json2sql')
+const json2CSV = require('./lib/json2CSV')
 const c = require('./config')
 
 try { fs.mkdirSync('output') }
@@ -35,5 +35,5 @@ async function iterateAll(overwrite = false, skipHuge = true){
 }
 
 iterateAll(true).then(()=>{
-    json2sql('output', c.name)
+    json2CSV('output', c.name, 'csv')
 })
