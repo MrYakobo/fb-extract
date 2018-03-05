@@ -3,6 +3,8 @@ const path = require('path')
 
 const ProgressBar = require('progress')
 let msg = require('./lib/streams')
+const json2sql = require('./lib/json2sql')
+const c = require('./config')
 
 try { fs.mkdirSync('output') }
 catch(e){ }
@@ -27,20 +29,11 @@ async function iterateAll(overwrite = false, skipHuge = true){
 
         bar.tick({curr: out})
 
-        const m = await msg(f, 'sv')
+        const m = await msg(f, c.lang)
         fs.writeFileSync(out, JSON.stringify(m, null, 2))
     }
 }
 
-function createSQL(){
-    const files = fs.readdirSync('output')
-    fs.createReadStream()
-}
-
 iterateAll(true).then(()=>{
-    // createSQL() 
+    json2sql('output', c.name)
 })
-
-// msg('messages/379.html', 'sv').then(m=>{
-//     fs.writeFileSync('output/379.json', JSON.stringify(m, null, 2))
-// })
