@@ -7,9 +7,7 @@ const msg = require('./lib/html2json')
 const json2CSV = require('./lib/json2csv')
 
 const Conf = require('conf');
-const config = new Conf({
-    
-});
+const config = new Conf({});
 
 const program = require('commander')
 const inquirer = require('inquirer')

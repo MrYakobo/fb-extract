@@ -1,11 +1,2 @@
-html/
-messages/
-photos/
-videos/
-index.htm
 node_modules/
-output/
 .vscode/
-out.json
-values.sql
-csv
