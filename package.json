@@ -1,17 +1,23 @@
 {
-  "name": "facebook",
+  "name": "fb-extract",
   "version": "1.0.0",
   "description": "This repository takes a folder as input and outputs to another folder (facebook-extracted/) where all information is extracted into JSON-files/CSV/Yaml, with scripts for importing these into a relational database.",
+  "bin": {
+    "fb-extract": "index.js"
+  },
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.14.1",
+    "conf": "^1.4.0",
     "cornet": "^0.1.5",
     "date-names": "^0.1.12",
     "he": "^1.1.1",
     "htmlparser2": "^3.9.2",
+    "inquirer": "^5.1.0",
     "moment": "^2.20.1",
     "progress": "^2.0.0"
   },
