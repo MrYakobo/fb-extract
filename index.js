@@ -95,7 +95,7 @@ async function main(){
     try { fs.mkdirSync(path.join(root,'json')) }
     catch(e){ }
 
-    // await iterateAll(lang)
+    await iterateAll(lang)
     spinner.text = 'Converting from JSON to CSV...'
     await json2CSV(name, path.join(root, 'json'), path.join(root,'csv'))
     console.log('Done!')

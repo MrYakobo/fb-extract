@@ -33,8 +33,8 @@ The tables look like this:
 | Column    | Type   |
 | --------- |:------:|
 | mid       | serial |
-| cid       | integer|
-| uid       | integer|
+| *cid*     | integer|
+| *uid*     | integer|
 | content   | text   |
 | media     | text   |
 | timestamp | timestamp without time zone |
@@ -43,14 +43,23 @@ The tables look like this:
 | Column    | Type   |
 | --------- |:------:|
 | pid       | serial |
-| uid       | integer|
-| cid       | integer|
+| *uid*     | integer|
+| *cid*     | integer|
 
 `users`
 | Column    | Type   |
 | --------- |:------:|
-| uid       | serial |
+| *uid*     | serial |
 | name      | text |
+
+`reactions`
+| Column    | Type   |
+| --------- |:------:|
+| rid       | serial |
+| *mid*     | integer|
+| *uid*     | integer|
+| emoji     | integer|
+
 
 ### Example queries
 Found under examples/
