@@ -19,7 +19,7 @@
     "htmlparser2": "^3.9.2",
     "inquirer": "^5.1.0",
     "moment": "^2.20.1",
-    "progress": "^2.0.0"
+    "ora": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,7 +1,3 @@
-Remove redundant and non-general-purpose variables. [x]
-Make some interactive stuffs with the terminal to make sure the settings are set right. [x]
-Rename output/ to JSON/ or something. [x]
-Move the whole project, `npm link --local` and cd to working folder. [x]
 Ask user about where to store the extracted information to avoid cluttering in the CWD.
 Add example queries to README
 
