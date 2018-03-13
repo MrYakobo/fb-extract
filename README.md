@@ -1,6 +1,6 @@
 ## Tool for extracting information out of `facebook.zip`
 
-Facebook appearently allows you to download your data in a `.zip`-file. Sadly, the files are in HTML and are meant to be viewed in a web browser; the raw data is hard to consume. Then, this repository happened.
+Facebook appearently allows you to download your data in a `.zip`-file (try it [here](https://www.facebook.com/dyi?x=AdnvjkapTQheYqqJ)). Sadly, the files are in HTML and are meant to be viewed in a web browser; the raw data is hard to consume. Then, this repository happened.
 
 `fb-extract` is a CLI that extracts your facebook data (messages) from HTML into JSON/CSV. Using this tool, you get the power to do whatever you want with your precious data. Word completetion, a chatbot that uses your expressions, machine learning etc. Endless possibilities! With your own data! Yay!
 
