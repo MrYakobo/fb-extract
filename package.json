@@ -1,7 +1,7 @@
 {
   "name": "fb-extract",
-  "version": "1.0.0",
-  "description": "This repository takes a folder as input and outputs to another folder (facebook-extracted/) where all information is extracted into JSON-files/CSV/Yaml, with scripts for importing these into a relational database.",
+  "version": "0.0.1",
+  "description": "A tool for extracting your messages from facebook.zip",
   "bin": {
     "fb-extract": "index.js"
   },
@@ -10,6 +10,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "chalk": "^2.3.2",
     "cheerio": "^1.0.0-rc.2",
     "commander": "^2.14.1",
     "conf": "^1.4.0",
@@ -22,10 +23,13 @@
     "ora": "^2.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "facebook",
+    "extract",
+    "messenger",
+    "data",
+    "tensorflow"
+  ],
+  "author": "Jakob Lindskog",
+  "license": "MIT"
 }

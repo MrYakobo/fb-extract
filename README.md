@@ -1,27 +1,43 @@
-## Repository for extracting information out of `facebook.zip`
+## Tool for extracting information out of `facebook.zip`
 
-This repository takes a folder as input and outputs to other folders where all information is extracted into JSON-files/CSV, with scripts for importing these into a relational database (only postgres for now).
+### NOTE! Your language has to be in [this](https://github.com/martinandert/date-names) repository to convert timestamps correctly. The timestamps looks like "den 10 november 2013 kl. 10:18 UTC+01" and are thus impossible to convert without a locale. If your language isn't supported, timestamps will be recorded as null.
+
+Facebook appearently allows you to download your data in a `.zip`-file. Sadly, the files are in HTML and are meant to be viewed in a web browser; the raw data is hard to consume. Then, this repository happened.
+
+`fb-extract` is a CLI that extracts your facebook data (messages) from HTML into JSON/CSV. Using this tool, you get the power to do whatever you want with your precious data. Word completetion, a chatbot that uses your expressions, machine learning etc. Endless possibilities! With your own data! Yay!
+
+Anyhow, my conversion is probably not perfect. If you feel like something is lost in the conversion, file up an issue.
+
+These platforms/databases/languages are tested so far:
+- Linux/PostgreSQL/Swedish
+
+I have no idea if this tool works at all with any language other than Swedish, and I have currently no way of testing that. As such, PR are **very** welcome :)
 
 ### Installation
 `npm i -g fb-extract`
 
 ### Usage
-Unzip facebook.zip that you downloaded from Facebook.com, then
-`fb-extract /path/to/facebook_dir`
+Unzip facebook.zip that you downloaded from [here](https://www.facebook.com/dyi?x=AdnvjkapTQheYqqJ), then run
+`fb-extract /path/to/facebook_dir`.
 
-The tool creates two new folders in `/path/to/facebook_dir`:
-.
-├── csv
-└── json
+The tool will now ask you for your language the first time you run it. This is to make sure that timestamps are converted properly. The config is stored in `~/.config/fb-extract-nodejs/config.json`. If interrupted, the tool restarts at where it left off by scanning the JSON-dir.
 
-Protip: Converting long conversations takes quite a long time compared to short ones. Go ahead and take a coffee or two.
+Converting long conversations takes quite a long time compared to short ones. Go ahead and take a coffee or two.
 
-Run `psql < csv/import.sql` (or execute the SQL some way on your database)
+The tool creates two new folders in `/path/to/facebook_dir`
 
-Bam! Ur done. Go ahead and SQL your way to victory.
+    .
+    ├── csv
+    └── json
+
+where files are placed accordingly.
+
+If you wan't to play around with [TensorFlow](https://www.tensorflow.org/api_docs/python/tf/decode_csv), you're all set. Just use the csv-files.
+
+If you wan't to have your messages in your database however, you should run `psql < csv/import.sql` (or execute `csv/import.sql` in some way on your database)
 
 ### Tables
-The tables look like this:
+> Columns in *italics* indicate a foreign key referencing another table key.
 
 `chats`
 | Column    | Type   |
@@ -62,4 +78,7 @@ The tables look like this:
 
 
 ### Example queries
-Found under examples/
+Found under `examples/`
+
+### License
+MIT

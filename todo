@@ -1,4 +1,2 @@
-Ask user about where to store the extracted information to avoid cluttering in the CWD.
-Add example queries to README
-
 Fix linking to photos/videos? How would one do that?
+Fix the flickering from updating the terminal progress. It's horrible

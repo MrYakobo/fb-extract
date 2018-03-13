@@ -14,6 +14,9 @@ const config = new Conf({});
 const program = require('commander')
 const inquirer = require('inquirer')
 
+const chalk = require('chalk')
+const cheerio = require('cheerio')
+
 let root = '.'
 
 program
@@ -39,64 +42,54 @@ async function iterateAll(lang, overwrite = false){
 
     const max = files.length+alreadyDone.length
     let i = alreadyDone.length
+    spinner.start('')
     for (t of files){
         const f = path.join(root, 'messages', t)
         const out = path.join(root, 'json', t.replace('html','json'))
 
-        // bar.tick({curr: out})
-
-        spinner.start(`${f} => ${out} [${Math.round(++i/max*100)}% of all files done]`)
+        spinner.text = `${f} => ${out} [${Math.round(++i/max*100)}% of all files done]`
         const m = await msg(f, lang)
-        spinner.succeed()
+        // spinner.succeed()
         fs.writeFileSync(out, JSON.stringify(m, null, 2))
     }
+    spinner.succeed()
 }
 
 async function main(){
 
     try{ fs.accessSync(path.join(root, 'index.htm')) }
     catch(e){
-        console.error(`ERR: Couldn't find ${path.join(root,'index.htm')}. cd to the facebook directory or pass the path as the first argument and try again.`)
+        console.error(`ERR: Couldn't find ${path.join(root,'index.htm')}. Run either ${chalk.green('cd facebook && fb-extract/')} or ${chalk.green('fb-extract facebook/')}`)
         process.exit(1)
     }
 
-    let name = config.get('name')
-    let lang = config.get('lang')
+    let lang
 
-    let questions = [
-        {
-            type: 'input',
-            name: 'name',
-            message: 'Please input your full name:',
-            validate: s=>s!=='' ,
-            when: ()=>name==null
-        },
-        {
-            type: 'list',
-            name: 'lang',
-            message: 'Please choose your language below:',
-            choices: [ 'cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'nl', 'pt-br', 'ru', 'sk', 'sv', new inquirer.Separator() ],
-            when: ()=>lang==null
-        }
-    ]
-
-    ans = await inquirer.prompt(questions)
-    
-    if(name == null) {
-        config.set('name', ans.name)
-        name = ans.name
-    }
-    if(lang == null) {
+    if(config.has(lang))
+        lang = config.get('lang') //get stored language
+    else {
+        let questions = [
+            {
+                type: 'list',
+                name: 'lang',
+                message: 'Please choose your language below:',
+                choices: [ 'cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'nl', 'pt-br', 'ru', 'sk', 'sv', 'none', new inquirer.Separator() ],
+                when: ()=>lang==null
+            }
+        ]
+        ans = await inquirer.prompt(questions)
         config.set('lang', ans.lang)
         lang = ans.name
     }
 
+    lang = lang == 'none' ? null : lang //if no language chosen, set to null
 
     try { fs.mkdirSync(path.join(root,'json')) }
     catch(e){ }
 
     await iterateAll(lang)
     spinner.text = 'Converting from JSON to CSV...'
+    const name = cheerio.load(fs.readFileSync(path.join(root, 'index.htm')))('h1').text()
     await json2CSV(name, path.join(root, 'json'), path.join(root,'csv'))
     console.log('Done!')
 }
