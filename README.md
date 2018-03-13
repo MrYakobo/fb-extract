@@ -1,7 +1,5 @@
 ## Tool for extracting information out of `facebook.zip`
 
-### NOTE! Your language has to be in [this](https://github.com/martinandert/date-names) repository to convert timestamps correctly. The timestamps looks like "den 10 november 2013 kl. 10:18 UTC+01" and are thus impossible to convert without a locale. If your language isn't supported, timestamps will be recorded as null.
-
 Facebook appearently allows you to download your data in a `.zip`-file. Sadly, the files are in HTML and are meant to be viewed in a web browser; the raw data is hard to consume. Then, this repository happened.
 
 `fb-extract` is a CLI that extracts your facebook data (messages) from HTML into JSON/CSV. Using this tool, you get the power to do whatever you want with your precious data. Word completetion, a chatbot that uses your expressions, machine learning etc. Endless possibilities! With your own data! Yay!
@@ -12,6 +10,8 @@ These platforms/databases/languages are tested so far:
 - Linux/PostgreSQL/Swedish
 
 I have no idea if this tool works at all with any language other than Swedish, and I have currently no way of testing that. As such, PR are **very** welcome :)
+
+#### NOTE! Your language has to be in [this](https://github.com/martinandert/date-names) repository to convert timestamps correctly. The timestamps looks like "den 10 november 2013 kl. 10:18 UTC+01" and are thus impossible to convert without a locale. If your language isn't supported, timestamps will be recorded as null.
 
 ### Installation
 `npm i -g fb-extract`
@@ -40,14 +40,16 @@ If you wan't to have your messages in your database however, you should run `psq
 > Columns in *italics* indicate a foreign key referencing another table key.
 
 `chats`
+
 | Column    | Type   |
-| --------- |:------:|
+| --------- |--------|
 | cid       | serial |
 | chat_name | text   |
 
 `messages`
+
 | Column    | Type   |
-| --------- |:------:|
+| --------- |--------|
 | mid       | serial |
 | *cid*     | integer|
 | *uid*     | integer|
@@ -56,21 +58,24 @@ If you wan't to have your messages in your database however, you should run `psq
 | timestamp | timestamp without time zone |
 
 `participants`
+
 | Column    | Type   |
-| --------- |:------:|
+| --------- |--------|
 | pid       | serial |
 | *uid*     | integer|
 | *cid*     | integer|
 
 `users`
+
 | Column    | Type   |
-| --------- |:------:|
+| --------- |--------|
 | *uid*     | serial |
 | name      | text |
 
 `reactions`
+
 | Column    | Type   |
-| --------- |:------:|
+| --------- |--------|
 | rid       | serial |
 | *mid*     | integer|
 | *uid*     | integer|
