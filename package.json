@@ -5,7 +5,6 @@
   "bin": {
     "fb-extract": "index.js"
   },
-  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
@@ -30,6 +29,10 @@
     "data",
     "tensorflow"
   ],
-  "author": "Jakob Lindskog",
+  "author": "Jakob Lindskog <jakob.lindskog@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrYakobo/fb-extract.git"
+  },
   "license": "MIT"
 }
