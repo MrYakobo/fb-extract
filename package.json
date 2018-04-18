@@ -1,6 +1,6 @@
 {
   "name": "fb-extract",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool for extracting your messages from facebook.zip",
   "bin": {
     "fb-extract": "index.js"
