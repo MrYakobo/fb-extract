@@ -65,7 +65,7 @@ async function main(){
 
     let lang
 
-    if(config.has(lang))
+    if(config.has('lang'))
         lang = config.get('lang') //get stored language
     else {
         let questions = [
